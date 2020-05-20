@@ -1,7 +1,7 @@
 import request from 'superagent'
 
-const localHostURL = 'http://localhost:4000'                                // local server
-const remoteHostURL = 'https://imageboard-server-20200517.herokuapp.com/'   // heroku remote server
+const localHostURL = 'http://localhost:4000'                               // local server
+const remoteHostURL = 'https://imageboard-server-20200517.herokuapp.com'   // heroku remote server
 
 const baseURL = remoteHostURL
 
