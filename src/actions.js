@@ -1,6 +1,9 @@
 import request from 'superagent'
 
-const baseURL = 'http://localhost:4000'
+const localHostURL = 'http://localhost:4000'                                // local server
+const remoteHostURL = 'https://imageboard-server-20200517.herokuapp.com/'   // heroku remote server
+
+const baseURL = remoteHostURL
 
 // action type
 export const FETCH_ALL_IMAGES = 'FETCH_ALL_IMAGES'
